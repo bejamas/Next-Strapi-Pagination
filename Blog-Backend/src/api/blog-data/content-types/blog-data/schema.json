@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_datas",
+  "info": {
+    "singularName": "blog-data",
+    "pluralName": "blog-datas",
+    "displayName": "Blog-Data"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "Author": {
+      "type": "string"
+    }
+  }
+}

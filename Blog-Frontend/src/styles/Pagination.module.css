@@ -1,0 +1,70 @@
+.Pagination__container {
+  background: #d0ece7;
+  max-width: 80rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.Pagination__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid #777;
+  margin: 0rem 0;
+  padding: 1.5rem 3rem;
+  color: #212f3c;
+}
+
+.Pagination__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.Pagination__item h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.75;
+}
+.Pagination__details h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.Pagination__info {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.Pagination__item:last-child {
+  border: none;
+}
+
+.read__more {
+  background: rgba(33, 47, 60, 0.6);
+  font-weight: 500;
+  color: #fff;
+  border: none;
+}
+
+.read__more:hover {
+  background: rgb(33, 47, 60);
+}
+
+.Pagination__controls a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #212f3c;
+  display: inline-block;
+  border: 1.5px solid #212f3c;
+  margin: 1rem;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+}
