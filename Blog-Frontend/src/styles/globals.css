@@ -8,7 +8,6 @@
 
 body {
   font-family: "Ysabeau Infant", sans-serif;
-  overflow: hidden;
 }
 
 html {
@@ -34,8 +33,6 @@ button:hover {
   cursor: pointer;
 }
 
-/* styles.css */
-/* styles.css */
 .page-exit {
   opacity: 1;
   transform: translateY(0%);
